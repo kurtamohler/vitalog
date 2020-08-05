@@ -1,3 +1,3 @@
 
-def record(measurement):
-    print(measurement)
+def record(timestamp, measurement):
+    print("%s: %s" % (timestamp, measurement))
